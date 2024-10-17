@@ -1,6 +1,8 @@
 const gallery = document.getElementById('tree-gallery');
 
-trees.forEach(tree => {
+trees.forEach(createTreeCard);
+
+function createTreeCard(tree){
     const treeDiv = document.createElement('div');
     treeDiv.className = 'tree';
 
@@ -23,4 +25,4 @@ trees.forEach(tree => {
     treeDiv.appendChild(treeLink);
 
     gallery.appendChild(treeDiv);
-});
+};

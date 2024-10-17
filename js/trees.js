@@ -42,7 +42,7 @@ const trees = [
         link: "trees/redwood.html"
      },
     { 
-        ame: "Cedar", 
+        name: "Cedar", 
         description: "Tree with aromatic wood and needle-like leaves.", 
         imagePath: "images/cedar.jpg", 
         link: "trees/cedar.html" 
