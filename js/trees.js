@@ -1,4 +1,4 @@
-const trees = [
+const trees = [ /*This is an array. The [] marks an array. Within it are objects, marked by {} and each containing 'key value pairs' containing a name and a value. The name begins the line, followed by a colon, then the value is surrounded by "". Each item within an array is separated by a comma, and each key value pair ends with a comma*/
     { 
         name: "Oak",
         description: "Large, strong tree with lobed leaves.",
